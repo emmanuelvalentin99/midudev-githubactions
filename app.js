@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const { version } = require('./package.json')
-//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
 // Heroku dynamically sets a port
 const PORT = process.env.PORT || 5000
 
